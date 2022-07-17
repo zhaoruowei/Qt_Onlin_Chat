@@ -1,0 +1,10 @@
+debug/logindialog.o
+debug/main.o
+debug/clientdialog.o
+debug/mainwindow.o
+debug/registerdialog.o
+debug/qrc_res.o
+debug/moc_clientdialog.o
+debug/moc_logindialog.o
+debug/moc_mainwindow.o
+debug/moc_registerdialog.o

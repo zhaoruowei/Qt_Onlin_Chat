@@ -1,0 +1,94 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.TalkClient"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:7:5-67
+12-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:8:5-81
+13-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:9:5-79
+14-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:9:22-76
+15
+16    <supports-screens
+16-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:11:5-15:39
+17        android:anyDensity="true"
+17-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:12:9-34
+18        android:largeScreens="true"
+18-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:13:9-36
+19        android:normalScreens="true"
+19-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:14:9-37
+20        android:smallScreens="true" />
+20-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:15:9-36
+21
+22    <application
+22-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:16:5-46:19
+23        android:name="org.qtproject.qt.android.bindings.QtApplication"
+23-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:17:9-71
+24        android:allowNativeHeapPointerTagging="false"
+24-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:22:9-54
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+26-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:18:9-41
+27        android:hardwareAccelerated="true"
+27-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:19:9-43
+28        android:label="TalkClient"
+28-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:20:9-35
+29        android:requestLegacyExternalStorage="true" >
+29-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:21:9-52
+30        <activity
+30-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:23:9-45:20
+31            android:name="org.qtproject.qt.android.bindings.QtActivity"
+31-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:24:13-72
+32            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+32-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:25:13-182
+33            android:label="TalkClient"
+33-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:26:13-39
+34            android:launchMode="singleTop"
+34-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:27:13-43
+35            android:screenOrientation="unspecified" >
+35-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:28:13-52
+36            <intent-filter>
+36-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:29:13-32:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:30:17-69
+37-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:30:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:31:17-77
+39-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:31:27-74
+40            </intent-filter>
+41
+42            <meta-data
+42-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:34:11-36:46
+43                android:name="android.app.lib_name"
+43-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:35:17-52
+44                android:value="TalkClient" />
+44-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:36:17-43
+45            <meta-data
+45-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:38:11-40:36
+46                android:name="android.app.arguments"
+46-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:39:17-53
+47                android:value="" />
+47-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:40:17-33
+48            <meta-data
+48-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:42:13-44:43
+49                android:name="android.app.extract_android_style"
+49-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:43:17-65
+50                android:value="minimal" />
+50-->D:\Document\QMUL\Semester2\Project\development\Code\TalkClient\android-build\AndroidManifest.xml:44:17-40
+51        </activity>
+52    </application>
+53
+54</manifest>

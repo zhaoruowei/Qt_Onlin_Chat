@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Document\\QMUL\\Semester2\\Project\\development\\Code\\TalkClient\\android-build\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Document\\QMUL\\Semester2\\Project\\development\\Code\\TalkClient\\android-build\\res\\values\\libs.xml",
+                    "from": {
+                        "startLines": "-1,-1,8,-1,-1,-1",
+                        "startColumns": "-1,-1,4,-1,-1,-1",
+                        "startOffsets": "-1,-1,211,-1,-1,-1",
+                        "endLines": "-1,-1,14,-1,-1,-1",
+                        "endColumns": "-1,-1,12,-1,-1,-1",
+                        "endOffsets": "-1,-1,437,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,5,8,15,17,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,109,223,452,611,750",
+                        "endLines": "4,7,14,15,17,19",
+                        "endColumns": "12,12,12,50,40,47",
+                        "endOffsets": "104,218,447,498,647,793"
+                    }
+                },
+                {
+                    "source": "D:\\Qt\\6.3.0\\android_x86\\src\\android\\java\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "16,18",
+                        "startColumns": "4,4",
+                        "startOffsets": "503,652",
+                        "endColumns": "107,97",
+                        "endOffsets": "606,745"
+                    }
+                }
+            ]
+        }
+    ]
+}
